@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+ 
+nav{
+  width: 23%;
+  height: 100vh;
+  position: fixed;
+  background-color:#9fafbf; 
+
+}
+
+h1{
+  color: #0a2b58;
+
+}
+
+.navbar ul{
+ margin-top: 20%;
+   
+}
+    
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: 1px;
+  border-color: black;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin-top: 5%;
+
+}
+ 
+.navbar a:hover, .subnav:hover .subnavbtn {
+  color:#0a2b58;
+  
+     
+}
+   
+.subnav-content a {
+ font-size: 20%;
+ color:white;
+ text-decoration: none;
+       
+}
+
+.subnav-content a:hover {
+ color: #0a2b58;
+       
+}
+        
+.subnav:hover .subnav-content {
+ display: block;
+ left: 10%;
+         
+}
+
+.subnav-content {
+ display: none;
+ position: absolute;
+ background-color:#3b4d61;
+ top: auto;
+
+}
+  
+.navbar a {
+ font-weight: 900;
+ font-size: 19px;
+ color:white;
+ text-align: center;
+ padding: 20px 25px;
+ text-decoration: none;
+    
+}
+  
+section{
+ width: 75%;
+ height: 100%;
+ position: absolute;
+ left: 25%;
+  
+}   
+  
+section h1{
+ margin-top: 1%;
+ font-size: 40px;
+  
+}  
+section h3{
+ background-color:#9fafbf ;
+ width: 20%;
+ margin-top: 10%;
+
+color: #0a2b30;
+
+}
+
+nav button{
+ width: auto;
+ margin-right: 10%;
+    
+}
+p{
+  color: white;
+}
+      #bloc{
+          background-color: #3b4d61;
+          height: 15%;
+          width: 95%;
+      } 
+      #bloc1{
+        background-color: #3b4d61;
+        height: auto;
+        width: 95%;
+    }
+   #Code{
+    background-color: #3b4d61;
+    height: auto;
+    width: 95%;
+   }
+   input{
+       width: 50%;
+       margin: 2% 2%;
+       margin-top: 1%;
+       padding: 0.5%;
+   }
+   button{
+       width: 19%;
+       margin-top: 0.5%;
+       margin: 3%;
+       padding: 0.2%;
+   }
+   button:hover{
+       background-color: #9fafbf;
+   }
+   span{
+      margin: 1%;
+       color: white;
+       font-weight: 900;
+       margin-top: -10%;
+   }
+   img{
+    margin:1%;
+    width: 98%;
+    height: auto;
+  }
+ 
